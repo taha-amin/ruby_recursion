@@ -1,3 +1,8 @@
+=begin
+Build a method #merge_sort that takes in an array and returns 
+a sorted array, using a recursive merge sort methodology
+=end
+
 def merge_sort(array)
   middle = (array.size / 2)
   return array if array.size < 2
